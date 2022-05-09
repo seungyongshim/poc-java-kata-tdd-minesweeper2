@@ -10,6 +10,7 @@ public class CellTest {
         var sut = new Cell();
         // act
         sut.setBomb();
+        sut.click();
         // assert
         assertEquals("*", sut.toString());
     }
@@ -20,6 +21,7 @@ public class CellTest {
         var sut = new Cell();
 
         sut.setNumber(1);
+        sut.click();
 
         assertEquals("1", sut.toString());
     }
