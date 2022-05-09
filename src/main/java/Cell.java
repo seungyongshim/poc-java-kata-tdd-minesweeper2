@@ -23,5 +23,8 @@ public class Cell {
     public void click() {
         isCovered = false;
     }
-    
+
+    public boolean isBomb() {
+        return isBomb;
+    }
 }
