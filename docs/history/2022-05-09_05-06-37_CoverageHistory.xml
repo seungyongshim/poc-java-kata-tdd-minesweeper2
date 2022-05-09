@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<coverage version="1.0" date="2022-05-09_05-06-37" tag="14_2292116001">
+  <assembly name="">
+    <class name="Cell" coveredlines="12" coverablelines="12" totallines="0" coveredbranches="4" totalbranches="4" coveredcodeelements="6" totalcodeelements="6" />
+    <class name="Main" coveredlines="1" coverablelines="4" totallines="0" coveredbranches="0" totalbranches="0" coveredcodeelements="1" totalcodeelements="3" />
+    <class name="Minefield" coveredlines="15" coverablelines="15" totallines="0" coveredbranches="0" totalbranches="0" coveredcodeelements="3" totalcodeelements="3" />
+  </assembly>
+</coverage>
