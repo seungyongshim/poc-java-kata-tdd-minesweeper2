@@ -13,4 +13,14 @@ public class CellTest {
         // assert
         assertEquals("*", sut.toString());
     }
+
+    @Test
+    void should_near_number_1()
+    {
+        var sut = new Cell();
+
+        sut.setNumber(1);
+
+        assertEquals("1", sut.toString());
+    }
 }

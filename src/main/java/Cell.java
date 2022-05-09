@@ -11,5 +11,8 @@ public class Cell {
     {
         return "*";
     }
+
+	public void setNumber(int i) {
+	}
     
 }
