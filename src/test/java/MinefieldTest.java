@@ -9,5 +9,6 @@ public class MinefieldTest {
         var sut = new Minefield(3, 4);
 
         assertEquals(12, sut.getCells().size());
+        assertEquals(".", sut.getCells().get(0).toString());
     }
 }
