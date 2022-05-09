@@ -1,17 +1,17 @@
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Stream;
 
 public class Minefield {
 
     private List<Cell> cells;
 
     public Minefield(int width, int height) {
-        cells = new ArrayList<Cell>();
 
-        for(int i = 0 ; i < width * height ; i++)
-        {
-             cells.add(new Cell());
-        }
+        cells = Stream.iterate(0, n -> n + 1)
+                      .limit(width * height)
+                      .map(x -> new Cell())
+                      .toList();
     }
 
     public List<Cell> getCells() {
