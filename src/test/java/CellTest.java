@@ -23,4 +23,12 @@ public class CellTest {
 
         assertEquals("1", sut.toString());
     }
+
+    @Test
+    void should_covered()
+    {
+        var sut = new Cell();
+
+        assertEquals(".", sut.toString());
+    }
 }
