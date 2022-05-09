@@ -1,6 +1,7 @@
 public class Cell {
 
     private boolean isBomb;
+    private int number;
 
     public void setBomb() {
         isBomb = true;
@@ -9,10 +10,12 @@ public class Cell {
     @Override
     public String toString()
     {
-        return "*";
+        return isBomb ? "*" :
+               String.valueOf(number);
     }
 
 	public void setNumber(int i) {
+        number = i;
 	}
     
 }
