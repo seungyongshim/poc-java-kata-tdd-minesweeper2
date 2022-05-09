@@ -1,7 +1,15 @@
 public class Cell {
 
-    public Object setBomb() {
-        return null;
+    private boolean isBomb;
+
+    public void setBomb() {
+        isBomb = true;
+    }
+
+    @Override
+    public String toString()
+    {
+        return "*";
     }
     
 }

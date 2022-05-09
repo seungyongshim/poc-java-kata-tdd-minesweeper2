@@ -9,8 +9,8 @@ public class CellTest {
         // arrange
         var sut = new Cell();
         // act
-        var ret = sut.setBomb();
+        sut.setBomb();
         // assert
-        assertEquals("*", ret.toString());
+        assertEquals("*", sut.toString());
     }
 }
